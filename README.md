@@ -1,14 +1,14 @@
-# 🐚 GoShell
+#  GoShell
 
 A lightweight interactive shell written in Go! 🚀
 
 ## ✨ Features
 
-- 🏃‍♂️ Fast and lightweight command execution
-- 🔍 Smart tab completion for commands and files
-- 🏠 Built-in commands (`cd`, `pwd`, `echo`, `type`, `exit`)
-- 🔄 External command execution
-- 🖥️ Beautiful interactive prompt
+-  Fast and lightweight command execution
+-  Smart tab completion for commands and files
+-  Built-in commands (`cd`, `pwd`, `echo`, `type`, `exit`)
+-  External command execution
+- 🖥 Beautiful interactive prompt
 
 ## 📺 Shell in Action
 
@@ -73,11 +73,11 @@ Run the shell with:
 
 | Command | Description | Usage |
 |---------|-------------|-------|
-| `cd` | 📂 Change directory | `cd [directory]` |
-| `pwd` | 📌 Print working directory | `pwd` |
-| `echo` | 🔊 Echo text to standard output | `echo [text]` |
-| `type` | 🔍 Display command type | `type [command]` |
-| `exit` | 🚪 Exit the shell | `exit [code]` |
+| `cd` | Change directory | `cd [directory]` |
+| `pwd` |  Print working directory | `pwd` |
+| `echo` |  Echo text to standard output | `echo [text]` |
+| `type` |  Display command type | `type [command]` |
+| `exit` |  Exit the shell | `exit [code]` |
 
 ## 🛠️ Development
 
