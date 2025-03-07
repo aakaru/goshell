@@ -18,7 +18,7 @@ func init() {
 }
 
 func main() {
-	fmt.Println("GoShell v0.1 - TYpe 'exit' to exit.")
+	fmt.Println("GoShell v0.1 - Type 'exit' to exit.")
 
 	p := prompt.New(executor,
 		completer,
