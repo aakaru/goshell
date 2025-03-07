@@ -8,7 +8,7 @@ A lightweight interactive shell written in Go! 🚀
 -  Smart tab completion for commands and files
 -  Built-in commands (`cd`, `pwd`, `echo`, `type`, `exit`)
 -  External command execution
-- 🖥 Beautiful interactive prompt
+- Beautiful interactive prompt
 
 ## 📺 Shell in Action
 
