@@ -85,5 +85,5 @@ func shellPrompt() string {
 	}
 	hostname, _ := os.Hostname()
 
-	return fmt.Sprintf("%s@%s:%s$", username, hostname, pwd)
+	return fmt.Sprintf("%s@%s:%s$ ", username, hostname, pwd)
 }
