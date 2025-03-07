@@ -10,24 +10,9 @@ A lightweight interactive shell written in Go! 🚀
 -  External command execution
 - Beautiful interactive prompt
 
-## 📺 Shell in Action
+<img src="goshell-screenshot.png" alt="GoShell Screenshot" width="500" >
 
-![GoShell Screenshot](/api/placeholder/650/400)
 
-```
-GoShell v0.1 - Type 'exit' to exit.
-username@hostname:/home/username$ pwd
-/home/username
-username@hostname:/home/username$ echo Hello from GoShell!
-Hello from GoShell!
-username@hostname:/home/username$ type echo
-echo is a built in command
-username@hostname:/home/username$ cd Documents
-username@hostname:/home/username/Documents$ ls
-file1.txt  file2.txt  project/
-username@hostname:/home/username/Documents$ exit
-Exiting GoShell.
-```
 
 ## 📁 Project Structure
 
