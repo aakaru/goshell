@@ -13,6 +13,7 @@ func init() {
 		"pwd":  printWorkingDirectory,
 		"echo": echoCommand,
 		"type": typeCommand,
+		"whoami": whoamicommand,
 		"exit": exitCommand,
 	}
 }
