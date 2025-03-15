@@ -68,3 +68,31 @@ func exitCommand(args []string) error {
 	os.Exit(code)
 	return nil
 }
+
+func whoamicommand(args []string) error {
+	currentUser := os.Getenv("USER")
+	if currentUser == "" {
+		currentUser = os.Getenv("USERNAME")
+	}
+	if currentUser == "" {
+		if runtime.GOOS == "windows" {
+			cmd := exec.Command("whoami")
+			output, err := cmd.Output()
+			if err != nil {
+				currentUser = strings.TrimSpace(string(output))
+			}
+
+		} else {
+			u, err := user.Current()
+			if err != nil {
+				currentUser = u.Username
+			}
+		}
+	}
+	if currentUser == "" {
+		currentUser = "unknown"
+	}
+	fmt.Println(currentUser)
+	return nil
+}
+
