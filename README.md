@@ -62,6 +62,7 @@ Run the shell with:
 | `pwd` |  Print working directory | `pwd` |
 | `echo` |  Echo text to standard output | `echo [text]` |
 | `type` |  Display command type | `type [command]` |
+| `whoami` |  Display user | `whoami` |
 | `exit` |  Exit the shell | `exit [code]` |
 
 ## 🛠️ Development
