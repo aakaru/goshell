@@ -29,7 +29,7 @@ func completer(d prompt.Document) []prompt.Suggest {
 				continue
 			}
 			for _, file := range files {
-				if !file.IsDir() {
+				if !file.IsDir() && isExecutable(filepath.Join(path, file.Name())) {
 					suggestions = append(suggestions, prompt.Suggest{
 						Text:        file.Name(),
 						Description: "External Command",
