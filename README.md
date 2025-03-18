@@ -85,7 +85,3 @@ Contributions are welcome! 🎉 Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- Thanks to the Go community for their amazing tools and libraries
-- Special thanks to the creators of go-prompt for making this shell possible
