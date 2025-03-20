@@ -29,8 +29,8 @@ goshell/
 
 ### Prerequisites
 
-- 📦 Go 1.16 or higher
-- 📚 Git
+-  Go 1.16 or higher
+-  Git
 
 ```bash
 # Clone the repository
@@ -75,7 +75,7 @@ go build -o goshell
 
 ### Dependencies
 
-- 🧩 [github.com/c-bata/go-prompt](https://github.com/c-bata/go-prompt) - Interactive prompt library
+- [github.com/c-bata/go-prompt](https://github.com/c-bata/go-prompt) - Interactive prompt library
 
 ## 🤝 Contributing
 
